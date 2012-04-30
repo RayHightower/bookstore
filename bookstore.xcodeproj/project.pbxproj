@@ -25,6 +25,10 @@
 		6F799B13154F25EF002B5333 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F799B11154F25EF002B5333 /* InfoPlist.strings */; };
 		6F799B16154F25EF002B5333 /* bookstoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B15154F25EF002B5333 /* bookstoreTests.m */; };
 		6F799B21154F2704002B5333 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B20154F2704002B5333 /* Customer.m */; };
+		6F799B24154F3F9C002B5333 /* Bookstore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B23154F3F9C002B5333 /* Bookstore.m */; };
+		6F799B27154F3FAE002B5333 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B26154F3FAE002B5333 /* Book.m */; };
+		6F799B2A154F3FC9002B5333 /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B29154F3FC9002B5333 /* Sale.m */; };
+		6F799B2B154F3FC9002B5333 /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B29154F3FC9002B5333 /* Sale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,12 @@
 		6F799B15154F25EF002B5333 /* bookstoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookstoreTests.m; sourceTree = "<group>"; };
 		6F799B1F154F2704002B5333 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
 		6F799B20154F2704002B5333 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		6F799B22154F3F9C002B5333 /* Bookstore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookstore.h; sourceTree = "<group>"; };
+		6F799B23154F3F9C002B5333 /* Bookstore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookstore.m; sourceTree = "<group>"; };
+		6F799B25154F3FAE002B5333 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		6F799B26154F3FAE002B5333 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		6F799B28154F3FC9002B5333 /* Sale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sale.h; sourceTree = "<group>"; };
+		6F799B29154F3FC9002B5333 /* Sale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sale.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +146,12 @@
 				6F799AEA154F25EF002B5333 /* Supporting Files */,
 				6F799B1F154F2704002B5333 /* Customer.h */,
 				6F799B20154F2704002B5333 /* Customer.m */,
+				6F799B22154F3F9C002B5333 /* Bookstore.h */,
+				6F799B23154F3F9C002B5333 /* Bookstore.m */,
+				6F799B25154F3FAE002B5333 /* Book.h */,
+				6F799B26154F3FAE002B5333 /* Book.m */,
+				6F799B28154F3FC9002B5333 /* Sale.h */,
+				6F799B29154F3FC9002B5333 /* Sale.m */,
 			);
 			path = bookstore;
 			sourceTree = "<group>";
@@ -284,6 +300,9 @@
 				6F799AFD154F25EF002B5333 /* BKMasterViewController.m in Sources */,
 				6F799B00154F25EF002B5333 /* BKDetailViewController.m in Sources */,
 				6F799B21154F2704002B5333 /* Customer.m in Sources */,
+				6F799B24154F3F9C002B5333 /* Bookstore.m in Sources */,
+				6F799B27154F3FAE002B5333 /* Book.m in Sources */,
+				6F799B2A154F3FC9002B5333 /* Sale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F799B16154F25EF002B5333 /* bookstoreTests.m in Sources */,
+				6F799B2B154F3FC9002B5333 /* Sale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
