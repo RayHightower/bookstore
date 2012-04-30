@@ -24,6 +24,7 @@
 		6F799B0B154F25EF002B5333 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F799AE7154F25EF002B5333 /* CoreData.framework */; };
 		6F799B13154F25EF002B5333 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F799B11154F25EF002B5333 /* InfoPlist.strings */; };
 		6F799B16154F25EF002B5333 /* bookstoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B15154F25EF002B5333 /* bookstoreTests.m */; };
+		6F799B21154F2704002B5333 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B20154F2704002B5333 /* Customer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,24 +43,26 @@
 		6F799AE3154F25EF002B5333 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F799AE5154F25EF002B5333 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6F799AE7154F25EF002B5333 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		6F799AEB154F25EF002B5333 /* bookstore-Info.plist */ = {isa = PBXFileReference; path = "bookstore-Info.plist"; sourceTree = "<group>"; };
+		6F799AEB154F25EF002B5333 /* bookstore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bookstore-Info.plist"; sourceTree = "<group>"; };
 		6F799AED154F25EF002B5333 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F799AEF154F25EF002B5333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F799AF1154F25EF002B5333 /* bookstore-Prefix.pch */ = {isa = PBXFileReference; path = "bookstore-Prefix.pch"; sourceTree = "<group>"; };
-		6F799AF2154F25EF002B5333 /* BKAppDelegate.h */ = {isa = PBXFileReference; path = BKAppDelegate.h; sourceTree = "<group>"; };
+		6F799AF1154F25EF002B5333 /* bookstore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bookstore-Prefix.pch"; sourceTree = "<group>"; };
+		6F799AF2154F25EF002B5333 /* BKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKAppDelegate.h; sourceTree = "<group>"; };
 		6F799AF3154F25EF002B5333 /* BKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKAppDelegate.m; sourceTree = "<group>"; };
 		6F799AF6154F25EF002B5333 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6F799AF9154F25EF002B5333 /* bookstore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bookstore.xcdatamodel; sourceTree = "<group>"; };
-		6F799AFB154F25EF002B5333 /* BKMasterViewController.h */ = {isa = PBXFileReference; path = BKMasterViewController.h; sourceTree = "<group>"; };
+		6F799AFB154F25EF002B5333 /* BKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKMasterViewController.h; sourceTree = "<group>"; };
 		6F799AFC154F25EF002B5333 /* BKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKMasterViewController.m; sourceTree = "<group>"; };
-		6F799AFE154F25EF002B5333 /* BKDetailViewController.h */ = {isa = PBXFileReference; path = BKDetailViewController.h; sourceTree = "<group>"; };
+		6F799AFE154F25EF002B5333 /* BKDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKDetailViewController.h; sourceTree = "<group>"; };
 		6F799AFF154F25EF002B5333 /* BKDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKDetailViewController.m; sourceTree = "<group>"; };
 		6F799B06154F25EF002B5333 /* bookstoreTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookstoreTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F799B07154F25EF002B5333 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		6F799B10154F25EF002B5333 /* bookstoreTests-Info.plist */ = {isa = PBXFileReference; path = "bookstoreTests-Info.plist"; sourceTree = "<group>"; };
+		6F799B10154F25EF002B5333 /* bookstoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bookstoreTests-Info.plist"; sourceTree = "<group>"; };
 		6F799B12154F25EF002B5333 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6F799B14154F25EF002B5333 /* bookstoreTests.h */ = {isa = PBXFileReference; path = bookstoreTests.h; sourceTree = "<group>"; };
+		6F799B14154F25EF002B5333 /* bookstoreTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bookstoreTests.h; sourceTree = "<group>"; };
 		6F799B15154F25EF002B5333 /* bookstoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookstoreTests.m; sourceTree = "<group>"; };
+		6F799B1F154F2704002B5333 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		6F799B20154F2704002B5333 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				6F799AFF154F25EF002B5333 /* BKDetailViewController.m */,
 				6F799AF8154F25EF002B5333 /* bookstore.xcdatamodeld */,
 				6F799AEA154F25EF002B5333 /* Supporting Files */,
+				6F799B1F154F2704002B5333 /* Customer.h */,
+				6F799B20154F2704002B5333 /* Customer.m */,
 			);
 			path = bookstore;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				6F799AFA154F25EF002B5333 /* bookstore.xcdatamodeld in Sources */,
 				6F799AFD154F25EF002B5333 /* BKMasterViewController.m in Sources */,
 				6F799B00154F25EF002B5333 /* BKDetailViewController.m in Sources */,
+				6F799B21154F2704002B5333 /* Customer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
