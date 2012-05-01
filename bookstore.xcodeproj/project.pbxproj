@@ -29,6 +29,8 @@
 		6F799B27154F3FAE002B5333 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B26154F3FAE002B5333 /* Book.m */; };
 		6F799B2A154F3FC9002B5333 /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B29154F3FC9002B5333 /* Sale.m */; };
 		6F799B2B154F3FC9002B5333 /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B29154F3FC9002B5333 /* Sale.m */; };
+		6F799B2E155065B7002B5333 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B2D155065B7002B5333 /* Author.m */; };
+		6F799B2F155065B7002B5333 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B2D155065B7002B5333 /* Author.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		6F799B26154F3FAE002B5333 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		6F799B28154F3FC9002B5333 /* Sale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sale.h; sourceTree = "<group>"; };
 		6F799B29154F3FC9002B5333 /* Sale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sale.m; sourceTree = "<group>"; };
+		6F799B2C155065B7002B5333 /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		6F799B2D155065B7002B5333 /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,8 @@
 				6F799B26154F3FAE002B5333 /* Book.m */,
 				6F799B28154F3FC9002B5333 /* Sale.h */,
 				6F799B29154F3FC9002B5333 /* Sale.m */,
+				6F799B2C155065B7002B5333 /* Author.h */,
+				6F799B2D155065B7002B5333 /* Author.m */,
 			);
 			path = bookstore;
 			sourceTree = "<group>";
@@ -303,6 +309,7 @@
 				6F799B24154F3F9C002B5333 /* Bookstore.m in Sources */,
 				6F799B27154F3FAE002B5333 /* Book.m in Sources */,
 				6F799B2A154F3FC9002B5333 /* Sale.m in Sources */,
+				6F799B2E155065B7002B5333 /* Author.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +319,7 @@
 			files = (
 				6F799B16154F25EF002B5333 /* bookstoreTests.m in Sources */,
 				6F799B2B154F3FC9002B5333 /* Sale.m in Sources */,
+				6F799B2F155065B7002B5333 /* Author.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
