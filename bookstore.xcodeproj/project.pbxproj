@@ -31,6 +31,8 @@
 		6F799B2B154F3FC9002B5333 /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B29154F3FC9002B5333 /* Sale.m */; };
 		6F799B2E155065B7002B5333 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B2D155065B7002B5333 /* Author.m */; };
 		6F799B2F155065B7002B5333 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B2D155065B7002B5333 /* Author.m */; };
+		6F799B321550717A002B5333 /* PrintedMaterials.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B311550717A002B5333 /* PrintedMaterials.m */; };
+		6F799B331550717A002B5333 /* PrintedMaterials.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799B311550717A002B5333 /* PrintedMaterials.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		6F799B29154F3FC9002B5333 /* Sale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sale.m; sourceTree = "<group>"; };
 		6F799B2C155065B7002B5333 /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
 		6F799B2D155065B7002B5333 /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+		6F799B3015507179002B5333 /* PrintedMaterials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintedMaterials.h; sourceTree = "<group>"; };
+		6F799B311550717A002B5333 /* PrintedMaterials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintedMaterials.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 				6F799B29154F3FC9002B5333 /* Sale.m */,
 				6F799B2C155065B7002B5333 /* Author.h */,
 				6F799B2D155065B7002B5333 /* Author.m */,
+				6F799B3015507179002B5333 /* PrintedMaterials.h */,
+				6F799B311550717A002B5333 /* PrintedMaterials.m */,
 			);
 			path = bookstore;
 			sourceTree = "<group>";
@@ -310,6 +316,7 @@
 				6F799B27154F3FAE002B5333 /* Book.m in Sources */,
 				6F799B2A154F3FC9002B5333 /* Sale.m in Sources */,
 				6F799B2E155065B7002B5333 /* Author.m in Sources */,
+				6F799B321550717A002B5333 /* PrintedMaterials.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +327,7 @@
 				6F799B16154F25EF002B5333 /* bookstoreTests.m in Sources */,
 				6F799B2B154F3FC9002B5333 /* Sale.m in Sources */,
 				6F799B2F155065B7002B5333 /* Author.m in Sources */,
+				6F799B331550717A002B5333 /* PrintedMaterials.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

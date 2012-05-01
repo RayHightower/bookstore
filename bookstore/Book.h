@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <PrintedMaterials.h>
 
-@interface Book : NSObject  {
+@interface Book : PrintedMaterials  {
     
     NSString* author;
     NSString* publisher;
